@@ -17,7 +17,7 @@ namespace EventReview.Shared.Models
 
         public string Comment { get; set; }
 
-        [Range(1, 5, ErrorMessage = "Please provide a value between 1 and 5.")]
+        [Range(1, 10, ErrorMessage = "Please provide a value between 1 and 5.")]
         public int ReviewPointsFrom0To10 { get; set; }
     }
 }
